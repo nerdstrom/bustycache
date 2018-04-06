@@ -1,7 +1,7 @@
 {
   "name": "bustycache",
   "version": "0.3.0",
-  "description": "takes care of resources for cache busting",
+  "description": "Takes care of resources for cache busting. Filenames or parameter.",
   "main": "lib/busty-cache",
   "scripts": {
     "test": "mocha"
@@ -11,17 +11,18 @@
     "cache busting",
     "cachebusting",
     "revving",
-    "HTML",
-    "JavaScript",
-    "CSS",
-    "images"
+    "cache rev"
   ],
   "author": {
     "name": "nerdstrom",
     "email": "dev@geekstrom.de"
   },
-  "private": true,
-  "license": "UNLICENSED",
+  "homepage": "https://github.com/nerdstrom/bustycache",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nerdstrom/bustycache"
+  },
+  "license": "MIT",
   "preferGlobal": false,
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
