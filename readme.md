@@ -23,7 +23,7 @@ or use cli.js
 ### Options
 ```javascript
 var options = {
-        basePath: 'test',
+        basePath: '' || options.basePath,
         type: options.type || 'filename',
         parameterToken: options.parameterToken || 'v',
         value: options.value || new Date().getTime(),
