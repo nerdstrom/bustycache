@@ -10,12 +10,12 @@ It can also 'rollback' and remove previously added revision strings from your fi
 ## Usage
 ```javascript
 var bustycache = require('busty-cache');
-// get file contents
-// ...
+
+// ... get file contents
+
 var newContent = bustycache.bust(fileContents, options, rollback);
 
-// write new contents to file
-// ..
+// ... write new contents to file
 ```
 or use cli.js
 
@@ -55,7 +55,9 @@ var options = {
             ]
     };
 ```
-`options.moreResources` gets concated to `options.resources`
+#### More options
+`options.moreResources` is merged with `options.resources`
+
 
 ## Example
 ### Before
@@ -79,7 +81,7 @@ var options = {
     <script async src="js/bar.js"></script>
 </body>
 </html>
-```  
+```
 ### After
 ```html
 <!DOCTYPE html>
